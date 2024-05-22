@@ -19,7 +19,7 @@ const db = mysql.createConnection({
 db.connect(err => {
   if (err) {
     throw err; // Lança um erro se houver falha na conexão com o banco de dados
-  }
+  } 
   console.log('Conectado ao banco de dados MySQL'); // Mensagem de sucesso ao conectar ao banco de dados
 
   // Verificar se a tabela "patrimonios" existe no banco de dados
